@@ -12,7 +12,7 @@ readme = "README.md"
 license-file = "LICENSE"
 
 [dependencies]
-apriltag-sys = "0.2"
+apriltag-sys = { git = "https://github.com/jerry73204/apriltag-sys" }
 libc = "0.2"
 thiserror = "1.0"
 image = { version = "0.23", optional = true }
